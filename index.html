@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculater</title>
+    <link rel="stylesheet" href="./calsi.css">
+    <script src="./calsi.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <form>
+            <input type="text" id="result" placeholder="0." readonly>
+        </form>
+        <div id="buttCont">
+           <button class="butts" onclick="clearResult()">C</button>
+           <button class="butts" onclick="appendValue(1)">1</button>
+           <button class="butts" onclick="appendValue(2)">2</button>
+           <button class="butts" onclick="appendValue(3)">3</button>
+           <button class="butts" onclick="deleteValue()">DEL</button>
+           <button class="butts" onclick="appendValue(4)">4</button>
+           <button class="butts" onclick="appendValue(5)">5</button>
+           <button class="butts" onclick="appendValue(6)">6</button>
+           <button class="butts" onclick="appendValue('+')">+</button>
+           <button class="butts" onclick="appendValue(7)">7</button>
+           <button class="butts" onclick="appendValue(8)">8</button>
+           <button class="butts" onclick="appendValue(9)">9</button>
+           <button class="butts" onclick="appendValue('-')">-</button>
+           <button class="butts" onclick="appendValue('/')">/</button>
+           <button class="butts" onclick="appendValue('0')">0</button>
+           <button class="butts" onclick="appendValue('%')">%</button>
+           <button class="butts" onclick="appendValue('')"></button>
+           <button class="butts" onclick="appendValue('(')">(</button>
+           <button class="butts" onclick="appendValue(')')">)</button>
+           <button class="butts" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+</body>
+</html>
